@@ -2,16 +2,16 @@ import React from 'react';
 import {View, Text} from 'react-native';
 import AbstractScreen from './index';
 
-class Home extends AbstractScreen {
+class Favorites extends AbstractScreen {
     render() {
         return (
             <View>
                 <Text>
-                    HOME!
+                    Favorites!
                 </Text>
             </View>
         )
     }
 }
 
-export default Home;
+export default Favorites;
